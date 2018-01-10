@@ -2,6 +2,7 @@ version: '3'
 
 services:
   testdocker:
+    restart: always
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
     ports:
