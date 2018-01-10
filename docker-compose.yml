@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  testdocker:
+    image: testdocker
+    build:
+      context: .
+      dockerfile: TestDocker/Dockerfile
