@@ -27,7 +27,7 @@ namespace TestDocker.Controllers
         [HttpGet]
         public IEnumerable<string> Get()
         {
-            return new string[] { _root["Enviroment"],"updated" };
+            return new string[] { _root["Enviroment"],"updated","data"};
         }
 
         // GET api/values/5
