@@ -6,4 +6,3 @@ services:
       - ASPNETCORE_ENVIRONMENT=Development
     ports:
       - "8088:80"
-  restart: always
